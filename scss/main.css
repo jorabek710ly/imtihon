@@ -57,7 +57,7 @@ button {
   text-decoration: underline;
 }
 .navbar__btn {
-
+  border: 1px solid #000;
   width: 220px;
   height: 70px;
   border-radius: 5px;
@@ -548,6 +548,9 @@ button {
   height: 45px;
   border-radius: 5px;
   border: none;
+}
+.pricing__btn button:hover {
+  box-shadow: 1px 1px 20px 1px rgb(161, 160, 160);
 }
 
 @media (max-width: 911px) {
