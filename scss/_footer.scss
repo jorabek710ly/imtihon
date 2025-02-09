@@ -57,6 +57,13 @@
             font-weight: 500;
             font-size: 20px;
             line-height: 30px;
+            transition: .3s;
+            &:hover{
+                background-color: #ffffff;
+                color: #263238;
+                border: 1px solid #263238;
+                cursor: pointer;
+            }
         }
     }
 
@@ -103,6 +110,12 @@
                 width: 193px;
                 height: 60px;
                 border-radius: 10px;
+                &:hover{
+                    background-color: #ffffff;
+                    color: #263238;
+                    border: 1px solid #263238;
+                    cursor: pointer;
+                }
             }
         }
     }
@@ -143,6 +156,12 @@
                 height: 50px;
                 border-radius: 5px;
                 border-width: 1px;
+                &:hover{
+                    background-color: #ffffff;
+                    color: #263238;
+                    border: 1px solid #263238;
+                    cursor: pointer;
+                }
             }
         }
 
@@ -211,6 +230,12 @@
                 width: 193px;
                 height: 61px;
                 border-radius: 10px;
+                &:hover{
+                    background-color: #ffffff;
+                    color: #263238;
+                    border: 1px solid #263238;
+                    cursor: pointer;
+                }
             }
         }
     }

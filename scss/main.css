@@ -57,6 +57,7 @@ button {
   text-decoration: underline;
 }
 .navbar__btn {
+
   width: 220px;
   height: 70px;
   border-radius: 5px;
@@ -68,8 +69,8 @@ button {
   transition: 0.4s;
 }
 .navbar__btn:hover {
-  background-color: #000;
-  color: #fff;
+  background-color: #000000;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -149,6 +150,12 @@ button {
   background: #263238;
   color: #fff;
 }
+.hero__text button:hover {
+  background-color: #ffffff;
+  color: #263238;
+  border: 1px solid #263238;
+  cursor: pointer;
+}
 .hero__title {
   position: relative;
 }
@@ -184,6 +191,12 @@ button {
     font-weight: 400;
     line-height: 36px;
   }
+  .hero__text button:hover {
+    background-color: #ffffff;
+    color: #263238;
+    border: 1px solid #263238;
+    cursor: pointer;
+  }
 }
 @media (max-width: 800px) {
   .hero__text {
@@ -205,6 +218,12 @@ button {
     height: 65px;
     font-size: 18px;
     font-weight: 400;
+  }
+  .hero__text button:hover {
+    background-color: #ffffff;
+    color: #263238;
+    border: 1px solid #263238;
+    cursor: pointer;
   }
 }
 @media (max-width: 600px) {
@@ -279,7 +298,7 @@ button {
   margin-bottom: 50px;
   grid-template-rows: 532px 343px;
 }
-.skills-button {
+.skills__btn {
   width: 230px;
   height: 60px;
   border-radius: 5px;
@@ -290,6 +309,13 @@ button {
   font-size: 18px;
   line-height: 27px;
   margin-top: 16px;
+  transition: 0.3s;
+}
+.skills__btn:hover {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid black;
+  cursor: pointer;
 }
 
 .skills-button1 {
@@ -625,6 +651,13 @@ button {
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+  transition: 0.3s;
+}
+.footer__input button:hover {
+  background-color: #ffffff;
+  color: #263238;
+  border: 1px solid #263238;
+  cursor: pointer;
 }
 .footer__top {
   display: flex;
@@ -665,6 +698,12 @@ button {
     height: 60px;
     border-radius: 10px;
   }
+  .footer__input button:hover {
+    background-color: #ffffff;
+    color: #263238;
+    border: 1px solid #263238;
+    cursor: pointer;
+  }
 }
 @media (max-width: 850px) {
   .footer {
@@ -695,6 +734,12 @@ button {
     height: 50px;
     border-radius: 5px;
     border-width: 1px;
+  }
+  .footer__input button:hover {
+    background-color: #ffffff;
+    color: #263238;
+    border: 1px solid #263238;
+    cursor: pointer;
   }
   .footer__top {
     margin-top: 30px;
@@ -747,6 +792,12 @@ button {
     width: 193px;
     height: 61px;
     border-radius: 10px;
+  }
+  .footer__input button:hover {
+    background-color: #ffffff;
+    color: #263238;
+    border: 1px solid #263238;
+    cursor: pointer;
   }
 }
 @media (max-width: 480px) {
